@@ -4,8 +4,9 @@ def mostrar_menu():
     print("2. Buscar por titulo")
     print("3. Filtrar por tag")
     print("4. Validar posts")
-    print("5. Salir")
-
+    print("5. Guardar posts en JSON")
+    print("6. Salir")
+    print("7. Crear un post")
     return input("Elegi una opcion: ").strip()
 
 
